@@ -1,0 +1,7 @@
+{ "viewportWidth": 1280,
+    "viewportHeight": 720,
+    "baseUrl": "https://buger-eats.vercel.app/",
+    "video": false,
+    "pageLoadTimeout": 10000,
+    "defaultCommandTimeout": 10000
+}

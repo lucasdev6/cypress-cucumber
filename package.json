@@ -1,0 +1,24 @@
+{
+    "devDependencies": {
+        "cypress": "^9.7.0",
+        "cypress-cucumber-preprocessor": "^4.3.1",
+        "cypress-file-upload": "^5.0.8",
+        "cypress-xpath": "^1.6.2"
+    },
+    "scripts": {
+        "test:chrome": "cypress run --browser chrome --no-exit"
+    },
+    "cypress-cucumber-preprocessor": {
+        "step_definitions": "cypress/support/steps"
+    },
+    "name": "cypresscucumber",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "@faker-js/faker": "^6.0.0-alpha.3",
+        "faker-br": "^0.4.1"
+    }
+}
